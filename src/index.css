@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  margin-top: 30px;
+}
+.container a {
+  text-decoration: none;
+  color: black;
+  gap: 40px;
+  margin-left: 20px;
+  transition: all 0.5s;
+  font-size: 16px;
+  
+}
+.container .products {
+  margin-left: 200px;
+}
+.container .use {
+  margin-left: 60px;
+}
+.container .resources {
+  margin-left: 80px;
+}
+.container .about {
+  margin-left: 40px;
+}
+.container .login {
+  margin-left: 200px;
+}
+.container .btn {
+  margin-left: 30px;
+  width: 167px;
+  height: 46px;
+  border-radius: 100px;
+  background-color: #fff;
+  transition: all 0.5s;
+}
+.container a:hover {
+  color: rgba(2, 42, 30, 1);
+}
+.container .btn:hover {
+  cursor: pointer;
+  background-color: rgba(2, 42, 30, 1);
+  color: #fff;
+}
+
+.hero__container {
+  background-color: rgba(2, 42, 30, 1);
+  width: 1128px;
+  height: 700px;
+  margin: 0px auto;
+  border-radius: 10px;
+}
+.hero__container h1 {
+  width: 348px;
+  height: 51px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  padding-top: 220px;
+  padding-left: 50px;
+}
+.hero__container p {
+  color: #fff;
+  padding-left: 50px;
+  padding-top: 50px;
+  width: 500px;
+  height: 55px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.hero__container img {
+  width: 330px;
+  height: 66px;
+  margin-left: 50px;
+  margin-top: 60px;
+}
